@@ -2,7 +2,9 @@
 #include<stdio.h>
 int main()
 {
-    int x=4,y=6,z=8,temp1,temp2;
+    int x,y,z,temp1,temp2;
+    printf("enter three numbers:");
+    scanf("%d %d %d",&x,&y,&z);
      temp1=x;
      temp2=y;
      x=z;
