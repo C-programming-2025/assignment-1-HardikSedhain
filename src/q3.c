@@ -3,6 +3,6 @@
 #include <stdio.h>
 
 int main() {
-    //Enter your code here
+    printf("hello Hardik. Have a great day.");
     return 0;
 }
