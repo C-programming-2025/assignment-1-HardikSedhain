@@ -3,7 +3,9 @@
 #include<stdio.h>
 int main()
 {
-    int a=4,b=6;
+    int a,b;
+    printf("enter two numbers:");
+    scanf("%d %d",&a,&b);
      printf("Before swapping: a=%d b=%d",a,b);
      a=a+b;
      b=a-b;

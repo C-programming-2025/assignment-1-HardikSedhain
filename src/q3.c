@@ -2,7 +2,11 @@
 
 #include <stdio.h>
 
-int main() {
-    printf("hello Hardik. Have a great day.");
+int main() 
+{
+    char name[50];
+    printf("enter your name:");
+    scanf("%s",name);
+    printf("Hello, %s. Have a great day.\n",name);
     return 0;
 }
